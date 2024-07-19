@@ -9,7 +9,7 @@ function Projects() {
             <ul className="projects__list">
                 <li className="project">
                     <div className="project__wrapper">
-                        <img src="assets/librarysnapshot.png" className="snapshot" alt="library snapshot"></img>
+                        <img src={`${process.env.PUBLIC_URL}/assets/librarysnapshot.PNG`} className="snapshot" alt="library snapshot"></img>
                         <div className="project__description">
                             <h3 className="project__description__title">Library</h3>
                             <h4 className="project__description__subtitle">HTML, JavaScript, CSS</h4>
@@ -18,12 +18,12 @@ function Projects() {
                                 functional cart, and responsive design.</p>
                             <div className="project__description__links">
                                 <div className="project__description__link">
-                                    <a href="https://github.com/DvdHLee/Library" target="_blank">
+                                    <a href="https://github.com/DvdHLee/Library" target="_blank" rel="noreferrer">
                                         <i className="fab fa-github"></i>
                                     </a>
                                 </div>
                                 <div className="project__description__link">
-                                    <a href="https://dvdhlee.github.io/Library" target="_blank">
+                                    <a href="https://dvdhlee.github.io/Library" target="_blank" rel="noreferrer">
                                         <i className="fas fa-link"></i>
                                     </a>
                                 </div>
@@ -33,7 +33,7 @@ function Projects() {
                 </li>
                 <li className="project">
                     <div className="project__wrapper">
-                        <img src="assets/treactsnapshot.png" className="snapshot" alt="mc snapshot"></img>
+                        <img src={`${process.env.PUBLIC_URL}/assets/treactsnapshot.PNG`} className="snapshot" alt="mc snapshot"></img>
                         <div className="project__description">
                             <h3 className="project__description__title">Treact Clone</h3>
                             <h4 className="project__description__subtitle">HTML, JavaScript, CSS</h4>
@@ -43,12 +43,12 @@ function Projects() {
                             </p>
                             <div className="project__description__links">
                                 <div className="project__description__link">
-                                    <a href="https://github.com/DvdHLee/Treact-Clone" target="_blank">
+                                    <a href="https://github.com/DvdHLee/Treact-Clone" target="_blank" rel="noreferrer">
                                         <i className="fab fa-github"></i>
                                     </a>
                                 </div>
                                 <div className="project__description__link">
-                                    <a href="https://dvdhlee.github.io/Treact-Clone/" target="_blank">
+                                    <a href="https://dvdhlee.github.io/Treact-Clone/" target="_blank" rel="noreferrer">
                                         <i className="fas fa-link"></i>
                                     </a>
                                 </div>
@@ -58,7 +58,7 @@ function Projects() {
                 </li>
                 <li className="project">
                     <div className="project__wrapper">
-                        <img src="assets/breezesnapshot.png" className="snapshot" alt="mc snapshot"></img>
+                        <img src={`${process.env.PUBLIC_URL}/assets/breezesnapshot.PNG`} className="snapshot" alt="mc snapshot"></img>
                         <div className="project__description">
                             <h3 className="project__description__title">Breeze 2</h3>
                             <h4 className="project__description__subtitle">React, Google API, National Weather Service API</h4>
@@ -68,12 +68,12 @@ function Projects() {
                             </p>
                             <div className="project__description__links">
                                 <div className="project__description__link">
-                                    <a href="https://github.com/DvdHLee/Breeze2" target="_blank">
+                                    <a href="https://github.com/DvdHLee/Breeze2" target="_blank" rel="noreferrer">
                                         <i className="fab fa-github"></i>
                                     </a>
                                 </div>
                                 <div className="project__description__link">
-                                    <a href="https://dvdhlee.github.io/Breeze2/" target="_blank">
+                                    <a href="https://dvdhlee.github.io/Breeze2/" target="_blank" rel="noreferrer">
                                         <i className="fas fa-link"></i>
                                     </a>
                                 </div>
@@ -83,7 +83,7 @@ function Projects() {
                 </li>
                 <li className="project">
                     <div className="project__wrapper">
-                        <img src="assets/mcsnapshot.png" className="snapshot" alt="mc snapshot"></img>
+                        <img src={`${process.env.PUBLIC_URL}/assets/mcsnapshot.png`} className="snapshot" alt="mc snapshot"></img>
                         <div className="project__description">
                             <h3 className="project__description__title">Meal Chewser</h3>
                             <h4 className="project__description__subtitle">React, Google API</h4>
@@ -93,12 +93,12 @@ function Projects() {
                                 restaurant for you.</p>
                             <div className="project__description__links">
                                 <div className="project__description__link">
-                                    <a href="https://github.com/arizonaCoderz/meal-chewser" target="_blank">
+                                    <a href="https://github.com/arizonaCoderz/meal-chewser" target="_blank" rel="noreferrer">
                                         <i className="fab fa-github"></i>
                                     </a>
                                 </div>
                                 <div className="project__description__link">
-                                    <a href="https://arizonacoderz.github.io/meal-chewser/" target="_blank">
+                                    <a href="https://arizonacoderz.github.io/meal-chewser/" target="_blank" rel="noreferrer">
                                         <i className="fas fa-link"></i>
                                     </a>
                                 </div>
@@ -108,7 +108,7 @@ function Projects() {
                 </li>
                 <li className="project">
                     <div className="project__wrapper">
-                        <img src="assets/moreorlesssnapshot.png" className="snapshot" alt="more or less snapshot"></img>
+                        <img src={`${process.env.PUBLIC_URL}/assets/moreorlesssnapshot.png`} className="snapshot" alt="more or less snapshot"></img>
                         <div className="project__description">
                             <h3 className="project__description__title">More or Less</h3>
                             <h4 className="project__description__subtitle">React, HTML, CSS, JavaScript</h4>
@@ -117,12 +117,12 @@ function Projects() {
                                 and various statistics are logged automatically using local browser storage.</p>
                             <div className="project__description__links">
                                 <div className="project__description__link">
-                                    <a href="https://github.com/DvdHLee/Moreorless" target="_blank">
+                                    <a href="https://github.com/DvdHLee/Moreorless" target="_blank" rel="noreferrer">
                                         <i className="fab fa-github"></i>
                                     </a>
                                 </div>
                                 <div className="project__description__link">
-                                    <a href="https://dvdhlee.github.io/Moreorless/" target="_blank">
+                                    <a href="https://dvdhlee.github.io/Moreorless/" target="_blank" rel="noreferrer">
                                         <i className="fas fa-link"></i>
                                     </a>
                                 </div>

@@ -7,7 +7,7 @@ function Footer() {
         <div className="footer__content">
             <div className="footer__logocontainer">
                 <a href="#" className="footer__anchor">
-                    <img src="assets/footerlogo.png" className="footer__logo" alt="footer logo"></img>
+                    <img src={`${process.env.PUBLIC_URL}/assets/footerlogo.png`} className="footer__logo" alt="footer logo"></img>
                     <span className="footer__logo__popper">
                         Top
                         <i className="fas fa-arrow-up"></i>

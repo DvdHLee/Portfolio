@@ -12,7 +12,7 @@ function Nav({
   return (
     <nav>
       <img
-        src={`${process.env.PUBLIC_URL}assets/logo.png`}
+        src={`${process.env.PUBLIC_URL}/assets/logo.png`}
         alt="DL logo"
         className="logo"
       ></img>
@@ -24,12 +24,12 @@ function Nav({
           <a href="#projects">Projects</a>
         </li>
         <li className="nav__link--item">
-          <a href="/#" onClick={() => {toggleModal(); toggleContactModal()}}>
+          <a href="#" onClick={() => {toggleModal(); toggleContactModal()}}>
             Contact
           </a>
         </li>
         <li className="nav__link--item">
-          <a href="/#" onClick={toggleContrast}>
+          <a href="#" onClick={toggleContrast}>
             <i className="fa-solid fa-circle-half-stroke"></i>
           </a>
         </li>
