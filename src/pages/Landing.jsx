@@ -165,7 +165,7 @@ function Landing() {
         </div>
         <button className="mail__btn">
           <a
-            href="/#"
+            href="#"
             onClick={() => {
               toggleModal();
               toggleContactModal();

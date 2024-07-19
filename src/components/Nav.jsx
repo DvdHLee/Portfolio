@@ -49,7 +49,7 @@ function Nav({
             Projects
           </a>
           <a
-            href="/#"
+            href="#"
             className="btn__menu--item"
             onClick={() => {toggleModal(); toggleContactModal(); closeMenu()}}
           >

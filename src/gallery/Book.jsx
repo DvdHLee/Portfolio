@@ -18,7 +18,7 @@ function Book() {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img src="../../assets/myresume.png" alt="my resume"></img>
+            <img src={`${process.env.PUBLIC_URL}/assets/myresume.png`} alt="my resume"></img>
           </a>
           <div className="back-cover"></div>
         </div>
