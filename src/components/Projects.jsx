@@ -62,7 +62,7 @@ function Projects() {
                         <div className="project__description">
                             <h3 className="project__description__title">Breeze 2</h3>
                             <h4 className="project__description__subtitle">React, Google API, National Weather Service API</h4>
-                            <p className="project__description__para">The second version a simple weather app. The National 
+                            <p className="project__description__para">The second version of a simple weather app. The National 
                                 Weather Service API provides data for any US domestic location. Features of this application include
                                 location autocomplete suggestions, dynamic components, and responsive design.
                             </p>
