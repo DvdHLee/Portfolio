@@ -9,6 +9,31 @@ function Projects() {
             <ul className="projects__list">
                 <li className="project">
                     <div className="project__wrapper">
+                        <img src={`${process.env.PUBLIC_URL}/assets/internshipsnapshot.PNG`} className="snapshot" alt="library snapshot"></img>
+                        <div className="project__description">
+                            <h3 className="project__description__title">Ultraverse</h3>
+                            <h4 className="project__description__subtitle">React, JavaScript, Node.js, Git</h4>
+                            <p className="project__description__para">The final product of my internship with Frontend Simplified. This internship
+                                consisted of converting a static website into a dynamic application using various Node.js libraries such as Axios,
+                                Owl Carousel, and Animate on Scroll. Maintained version control with repository branches and pull requests on github.
+                            </p>
+                            <div className="project__description__links">
+                                <div className="project__description__link">
+                                    <a href="https://github.com/DvdHLee/davidlee-internship" target="_blank" rel="noreferrer">
+                                        <i className="fab fa-github"></i>
+                                    </a>
+                                </div>
+                                <div className="project__description__link">
+                                    <a href="https://dvdhlee.github.io/davidlee-internship/" target="_blank" rel="noreferrer">
+                                        <i className="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li className="project">
+                    <div className="project__wrapper">
                         <img src={`${process.env.PUBLIC_URL}/assets/librarysnapshot.PNG`} className="snapshot" alt="library snapshot"></img>
                         <div className="project__description">
                             <h3 className="project__description__title">Library</h3>
