@@ -9,6 +9,31 @@ function Projects() {
             <ul className="projects__list">
                 <li className="project">
                     <div className="project__wrapper">
+                        <img src={`${process.env.PUBLIC_URL}/assets/twitterclonesnapshot.PNG`} className="snapshot" alt="twitter clone snapshot"></img>
+                        <div className="project__description">
+                            <h3 className="project__description__title">Twitter Clone</h3>
+                            <h4 className="project__description__subtitle">Next.js, Redux, Tailwind CSS, Material UI, Firebase</h4>
+                            <p className="project__description__para">A basic clone of the famous web app Twitter. Features include user creation
+                                and authentication, guest sign in, ability to create and like tweets, ability to upload images, ability to make comments, and dynamic page
+                                updates.
+                            </p>
+                            <div className="project__description__links">
+                                <div className="project__description__link">
+                                    <a href="https://github.com/DvdHLee/twitter-clone" target="_blank" rel="noreferrer">
+                                        <i className="fab fa-github"></i>
+                                    </a>
+                                </div>
+                                <div className="project__description__link">
+                                    <a href="https://twitter-clone-three-rose.vercel.app/" target="_blank" rel="noreferrer">
+                                        <i className="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li className="project">
+                    <div className="project__wrapper">
                         <img src={`${process.env.PUBLIC_URL}/assets/internshipsnapshot.PNG`} className="snapshot" alt="library snapshot"></img>
                         <div className="project__description">
                             <h3 className="project__description__title">Ultraverse</h3>
