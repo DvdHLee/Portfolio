@@ -49,7 +49,7 @@ function Projects() {
                                     </a>
                                 </div>
                                 <div className="project__description__link">
-                                    <a href="https://dvdhlee.github.io/davidlee-internship/" target="_blank" rel="noreferrer">
+                                    <a href="https://davidlee-internship.vercel.app/" target="_blank" rel="noreferrer">
                                         <i className="fas fa-link"></i>
                                     </a>
                                 </div>
